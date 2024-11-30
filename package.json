@@ -5,18 +5,18 @@
   "description": "liferay-cli, liferay cli, liferay, cli",
   "repository": {
     "type": "git",
-    "url": "https://github.com/user/module"
+    "url": "https://github.com/maratib/liferay-cli"
   },
-  "homepage": "https://github.com/user/module",
+  "homepage": "https://github.com/maratib/liferay-cli",
   "author": {
-    "name": "John Doe",
-    "email": "john@doe.com",
-    "url": "http://johndoe.com/"
+    "name": "Maratib Ali Khan",
+    "email": "maratib@gmail.com",
+    "url": "http://maratib.github.io"
   },
   "keywords": [
-    "nest firebase module",
-    "nest firebase",
-    "module"
+    "Liferay Cli",
+    "Liferay",
+    "cli"
   ],
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
