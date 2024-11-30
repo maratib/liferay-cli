@@ -1,0 +1,58 @@
+{
+  "name": "liferay-cli",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "liferay-cli, liferay cli, liferay, cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/user/module"
+  },
+  "homepage": "https://github.com/user/module",
+  "author": {
+    "name": "John Doe",
+    "email": "john@doe.com",
+    "url": "http://johndoe.com/"
+  },
+  "keywords": [
+    "nest firebase module",
+    "nest firebase",
+    "module"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "bin": {
+    "cli": "./dist/index.mjs"
+  },
+  "scripts": {
+    "dev": "tsx ./src/index.ts",
+    "pre": "yarn build && cli  -V",
+    "test": "mocha",
+    "prepublish": "npm run build",
+    "build": "tsup",
+    "local": "npm i -g . && cli"
+  },
+  "devDependencies": {
+    "@types/chai": "^5.0.1",
+    "@types/chalk": "^2.2.4",
+    "@types/clear": "^0.1.4",
+    "@types/figlet": "^1.7.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^22.10.1",
+    "chai": "^5.1.2",
+    "mocha": "^10.8.2",
+    "rimraf": "^6.0.1",
+    "tsup": "^8.3.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "clear": "^0.1.0",
+    "commander": "^12.1.0",
+    "figlet": "^1.8.0"
+  }
+}

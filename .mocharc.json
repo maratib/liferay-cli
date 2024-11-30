@@ -1,0 +1,7 @@
+{
+    "require": "tsx",
+    "timeout": 40000,
+    "_": [
+        "./test/**/*.spec.ts"
+    ]
+}
