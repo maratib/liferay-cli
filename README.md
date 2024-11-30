@@ -1,2 +1,2 @@
-# CLI utility starter
-## Create your own nodejs, typescript command line utility starter
+# Liferay CLI
+Create liferay workspaces, portlets themes and extension
